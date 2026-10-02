@@ -3,7 +3,7 @@
 
 **Title:** Setting Up Redux with React & TypeScript
 **Objective:** Learn how to integrate Redux for state management in a React + Vite + TypeScript project **without Redux Toolkit**.  
-I will understand **how Redux manages state globally**, **how to write reducers and actions**, and **how to connect Redux with React**.
+This assigment is for me to understand **how Redux manages state globally**, **how to write reducers and actions**, and **how to connect Redux with React**.
 
 ---
 
