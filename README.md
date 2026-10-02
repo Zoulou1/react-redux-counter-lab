@@ -3,7 +3,7 @@
 
 **Title:** Setting Up Redux with React & TypeScript
 **Objective:** Learn how to integrate Redux for state management in a React + Vite + TypeScript project **without Redux Toolkit**.  
-Students will understand **how Redux manages state globally**, **how to write reducers and actions**, and **how to connect Redux with React**.
+I will understand **how Redux manages state globally**, **how to write reducers and actions**, and **how to connect Redux with React**.
 
 ---
 
@@ -265,12 +265,3 @@ Open the URL Vite prints (normally `http://localhost:5173/`). Run `npm run build
 ## Redux flow in this version
 
 `counterActions.ts` creates increment, decrement, and reset actions. `counterReducer.ts` changes the counter state; `reducers/index.ts` combines the reducer; `store.ts` creates the store with redux-logger. `main.tsx` makes the store available with `Provider`. `Counter.tsx` reads the value with `useSelector` and updates it using `useDispatch`. The value starts at 0, can be negative, and returns to 0 when Reset is clicked.
-
-## Suggested four local commit milestones
-
-The ZIP contains **files, not Git history**. To make four meaningful local commits, stage the corresponding files as you complete each milestone in your own repository, commit, and push each one. Pasting a finished ZIP and committing it four times does not demonstrate progressive development.
-
-1. `chore: set up Vite React TypeScript project`
-2. `feat: add typed Redux counter actions and reducers`
-3. `feat: connect Redux store and counter controls to React`
-4. `docs: add activity README and finish counter styling`
